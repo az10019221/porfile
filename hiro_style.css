@@ -289,7 +289,17 @@ body .readon:hover, body .readon.white:hover {
 .port_card{
 	margin-bottom: 80px;
 }
-
+.skill{
+    font-size: 30px;
+    width: 55px;
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px #333333 solid;
+    line-height: 2em;
+    word-wrap: nowrap;
+}
 #XYUI_card .btn-primary{
 	background-color: rgba(255,215,100,0.5);
     border: none;
@@ -310,13 +320,12 @@ body .readon:hover, body .readon.white:hover {
 	color: #fff;
 }
 .port_card :-webkit-scrollbar{
-	height: 10px;
     width: 10px;
     background-color: transparent;
 }
 .port_card::-webkit-scrollbar-thumb{
 	background-color: rgba(170, 170, 170, 0.5);
-	border-radius: 5px;
+	border-radius: 90px;
 }
 footer{
 	background-color: rgba(0, 150, 151, 0.6);
@@ -449,6 +458,24 @@ footer{
 	.port_topic{
 		margin-top: 8px;
 	}
+	.port_card::-webkit-scrollbar {
+	  width: 1px;
+	}
+	/* Track */
+	.port_card::-webkit-scrollbar-track {
+	  background: #fff2ea;
+	}
+
+	/* Handle */
+	.port_card::-webkit-scrollbar-thumb {
+	  background: #c68e6d;
+	}
+
+	/* Handle on hover */
+
+	.port_card::-webkit-scrollbar-thumb:hover {
+	  background: #b77b58;
+	}
 }
 @media screen and (max-width:1200px) and (min-width:991px) {
 	.slider-wrap{
@@ -459,6 +486,26 @@ footer{
 	}
 	.port_card{
 		overflow:auto;
+	}
+	.port_card::-webkit-scrollbar {
+	  width: 5px;
+	}
+
+	/* Track */
+	.port_card::-webkit-scrollbar-track {
+	  background: #f1f1f1;
+	  width: 5px;
+	}
+
+	/* Handle */
+	.port_card::-webkit-scrollbar-thumb {
+	  background: #888;
+	  width: 5px;
+	}
+
+	/* Handle on hover */
+	.port_card::-webkit-scrollbar-thumb:hover {
+	  background: #555;
 	}
 }
 @media screen and (min-width:1201px) {
